@@ -1,0 +1,63 @@
+.download {
+	display: flex;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: fit-content;
+	height: fit-content;
+	color: #fff;
+	flex-direction: column;
+	width: 100vw;
+}
+
+.download .file {
+	display: flex;
+	margin: auto;
+	margin-bottom: 15px;
+}
+
+.download .title {
+	font-size: 18px;
+	display: flex;
+	margin: auto;
+	width: fit-content;
+	text-align: center;
+}
+
+.download .subtitle {
+	font-size: 13px;
+	display: flex;
+	margin: auto;
+	width: fit-content;
+	text-align: center;
+	margin-top: 5px;
+	font-style: italic;
+}
+
+.download .direct {
+	background: #3B3B3C;
+	padding: 6px 10px;
+	width: fit-content;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+	box-shadow: 1px 2px 3px #000;
+	text-decoration: none !important;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	font-size: 15px;
+}
+
+.download .back {
+	color: #fff;
+	text-decoration: underline !important;
+	text-align: center;
+	margin: auto;
+	width: fit-content;
+	margin-top: 20px;
+}
