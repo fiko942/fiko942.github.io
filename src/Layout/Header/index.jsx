@@ -1,4 +1,4 @@
-import './Header.css'
+import './Header.scss'
 import 'boxicons'
 import {useEffect, useState} from 'react'
 import Navbar from './Navbar'
@@ -30,6 +30,7 @@ export default function Header(args) {
         } else {
             document.title = 'Wiji Fiko Teren'
         }
+        setOpenMenu(false)
         setLinks(l)
         
     }, [location])

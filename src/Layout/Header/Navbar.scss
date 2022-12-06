@@ -1,0 +1,71 @@
+$color_1: #fff;
+$color_2: #A2AAAB;
+
+.navbar {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	z-index: 100;
+	background: #323233;
+	min-width: fit-content;
+	box-shadow: #000000 0px 0 3px 1px inset;
+	.items {
+		overflow-y: auto;
+		max-height: calc(100vh - 92.33px);
+		height: calc(100vh - 92.33px);
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+		padding: 30px 20px;
+	}
+	.item {
+		display: flex;
+		align-items: center;
+		padding: 3px 10px;
+		border-radius: 3px;
+		.name {
+			color: $color_1;
+			margin-left: 5px;
+			font-size: 16px;
+			font-weight: 500;
+		}
+		&:hover {
+			background: rgba(255,255,255,0.2);
+			cursor: pointer;
+		}
+	}
+	.item.active {
+		background: rgba(255,255,255,0.2);
+		cursor: pointer;
+	}
+	.nav-header {
+		font-size: 13px;
+		font-weight: 300;
+		color: $color_2;
+		display: flex;
+		align-items: center;
+		height: fit-content;
+		height: 50px;
+		padding-top: 50px;
+		.nav-dismiss {
+			cursor: pointer;
+			display: flex;
+			margin-left: auto;
+			margin-right: 0;
+			vertical-align: middle;
+			align-items: center;
+			padding: 2px;
+			border-radius: 50%;
+			margin-right: 15px;
+			margin-top: 10px;
+			&:hover {
+				background: rgba(255,255,255,0.2);
+			}
+		}
+	}
+}
+@media only screen and (max-width: 992px) {
+	.navbar {
+		width: 100vw;
+	}
+}

@@ -1,5 +1,5 @@
 import {useEffect, useState} from 'react'
-import  './Navbar.css'
+import  './Navbar.scss'
 import 'boxicons'
 import {Link} from 'react-router-dom'
 

@@ -1,0 +1,49 @@
+$color_1: #fff;
+$color_2: #8E8E8E;
+
+/* RIGHT SIDE */
+/* END OF RIGHT SIDE */
+.header {
+	position: absolute;
+	width: 100vw;
+	background: #323233;
+	z-index: 100;
+	top: 0;
+	left: 0;
+	color: $color_1;
+	display: flex;
+	align-items: center;
+	padding: -2px 20px;
+	box-shadow: #000000 0px 0 3px 1px inset;
+	padding-bottom: 1px;
+	.left {
+		display: flex;
+		align-items: center;
+		img {
+			width: 30px;
+			height: 30px;
+			margin-left: 5px;
+			border-radius: 50%;
+			box-shadow: 1px 2px 3px #000;
+			margin-left: 10px;
+		}
+		.name {
+			font-size: 16px;
+			margin-left: 3px;
+			font-weight: 500;
+			margin-left: 10px;
+		}
+	}
+	.right {
+		display: flex;
+		width: fit-content;
+		height: fit-content;
+		align-items: center;
+		margin-left: auto;
+		margin-right: 10px;
+		.nav-toggle {
+			color: $color_2;
+			cursor: pointer;
+		}
+	}
+}
