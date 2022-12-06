@@ -167,3 +167,7 @@
         display: flex;
     }
 }
+
+.home .skills {
+    margin-top: 20px;
+}

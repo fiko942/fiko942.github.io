@@ -2,6 +2,7 @@ import {useEffect, useState} from 'react'
 import './Home.css'
 import 'boxicons'
 import {Link} from 'react-router-dom'
+import Skills from './Skills'
 
 export default function Home(args) {
 
@@ -16,6 +17,7 @@ export default function Home(args) {
                     <Link to="/download/resume">Download Resume</Link>    
                     <Link to="/download/cv">Download CV</Link>
                 </div>
+                <Skills />
             </div>
             <div className="right">
                 <div className="card">
