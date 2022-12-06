@@ -38,20 +38,15 @@ export default function Header(args) {
         {
             name: 'Home',
             url: '/',
-            icon: <box-icon name='home' color='#fff' className='icon' />,
+            icon: <box-icon name='home' color='#fff' class='icon' />,
             active: true
         },{
             name: 'About',
             url: '/about',
-            icon: <box-icon name='home' color='#fff' className='icon' />,
+            icon: <box-icon name='user' color='#fff' class='icon' />,
             active: false
         }
     ])
-
-    useEffect(() => {
-        console.log('Open menu open: ' + openMenu)
-    }, [openMenu])
-
 
     return (
         <>
