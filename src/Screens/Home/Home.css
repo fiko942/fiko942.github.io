@@ -171,3 +171,13 @@
 .home .skills {
     margin-top: 20px;
 }
+
+.home .skills .skill {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home .skills .skill {
+    margin-top: 10px;
+}
