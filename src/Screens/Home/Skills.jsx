@@ -45,6 +45,13 @@ function Skill(args) {
 
     return (
         <a className={`skill col col-md-1${overed ? ' overed' : ''}`} href={args.skill.url} target='_blank' onMouseOver={onMouseOver.bind(this)} onMouseOut={onMouseOut.bind(this)} >
+            {overed && (
+                <div className='detail'>
+                    <div className="name" style={{color: args.skill.color}}>{args.skill.name}</div>
+                    <div className="site">{args.skill.url.replace('https://', '')}</div>
+                    <div className="arrow-down"></div>
+                </div>
+            )}
             <img loading='lazy' alt={args.skill.name} title={args.skill.name} src={args.skill.icon} width='40' className='skill-icon' />
         </a>
     )
