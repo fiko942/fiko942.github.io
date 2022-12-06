@@ -1,4 +1,4 @@
-import './Download.css'
+import './Download.scss'
 import 'boxicons'
 import {Link} from 'react-router-dom'
 import {useEffect} from 'react'

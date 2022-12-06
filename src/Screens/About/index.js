@@ -1,4 +1,4 @@
-import './About.css'
+import './About.scss'
 import 'boxicons'
 import {
 	useEffect,

@@ -40,8 +40,11 @@ export default function Skills() {
 
 function Skill(args) {
     const [overed, setOvered] = useState(false)
+    const onMouseOver = () => setOvered(true)
+    const onMouseOut = () => setOvered(false)
+
     return (
-        <a className='skill col col-md-1' href={args.skill.url} target='_blank'>
+        <a className={`skill col col-md-1${overed ? ' overed' : ''}`} href={args.skill.url} target='_blank' onMouseOver={onMouseOver.bind(this)} onMouseOut={onMouseOut.bind(this)} >
             <img loading='lazy' alt={args.skill.name} title={args.skill.name} src={args.skill.icon} width='40' className='skill-icon' />
         </a>
     )

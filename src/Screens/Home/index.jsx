@@ -1,5 +1,5 @@
 import {useEffect, useState} from 'react'
-import './Home.css'
+import './Home.scss'
 import 'boxicons'
 import {Link} from 'react-router-dom'
 import Skills from './Skills'
