@@ -24,6 +24,9 @@ import csharpcourseSololearn from '../../Static/Images/csharp_course_sololearn.p
 import javascriptalgorithm from '../../Static/Images/javasript_algorithm_freecodecamp.png'
 import responsivewebdesignFreecodecamp from '../../Static/Images/responsive_web_design_freecodecamp.png'
 import scientificcomputing from '../../Static/Images/scientific_computing_freecodecamp.png'
+import softwareArchitect from '../../Static/Images/idcamp_software_architect.png'
+import developerCoaching from '../../Static/Images/developer_coaching.png'
+import hadapiTantanganEkonomiGlobal from '../../Static/Images/hadapi_tantangan_ekonomi_global.png'
 
 export default function About(args) {
 
@@ -229,5 +232,42 @@ const ceritificates = [
 			role: 'Chief Executive Officer'
 		},
 		issued: 'Nov 9, 2021'
+	},
+	{
+		name: 'IDCamp x Dicoding: Software Architecture',
+		image: softwareArchitect,
+		company: 'Dicoding',
+		company_image: dicodingImage,
+		signed: {
+			name: 'Narenda Wicaksono',
+			role: 'Chief Executive Officer',
+		},
+		type: 'Event',
+		issued: 'Sep 24, 2022'
+	},
+	{
+		name: 'Dicodng Developer Coacing',
+		image: developerCoaching,
+		desc: 'Tingkatkan performa dan Proses Build Times dengan Modularisasi',
+		company: 'Dicoding',
+		company_image: dicodingImage,
+		signed: {
+			name: 'Narenda Wicaksono',
+			role: 'Chief Executive Officer'
+		},
+		type: 'Event',
+		issued: 'Okt 21, 2022'
+	},
+	{
+		name: 'Hadapi Tantangan Ekonomi Global dengan Talenta Digital',
+		image: hadapiTantanganEkonomiGlobal,
+		company: 'Dicoding',
+		company_image: dicodingImage,
+		signed: {
+			name: 'Narenda Wicaksono',
+			role: 'Chief Executive Officer'
+		},
+		type: 'Event',
+		issued: 'Okt 29, 2022'
 	}
 ]

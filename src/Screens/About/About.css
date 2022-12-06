@@ -240,10 +240,40 @@
 .about .cert .body .cert-img {
 	width: 100%;
 	border-radius: 4px;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.about .cert .body .cert-img-container {
+	display: flex;
+	position: relative;
+	cursor: pointer;
+}
+
+.about .cert .body .cert-img-container.overed::after {
+	display: flex;
+	content: 'Open image in new tab';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.2);
+	color: #000;
+	align-items: center;
+	justify-content: center;
+	font-weight: 600;
+}
+
+.about .cert .body .cert-img-container.overed img {
+	filter: blur(2px);
 }
 
 .about .cert-detail tr td {
 	padding: 6px 10px;
+	font-size: 13px;
 }
 
 .about .cert-detail .company {
