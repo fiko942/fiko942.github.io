@@ -45,6 +45,12 @@ export default function Header(args) {
             url: '/about',
             icon: <box-icon name='user' color='#fff' class='icon' />,
             active: false
+        },
+        {
+            name: 'Portfolio',
+            url: '/portfolio',
+            icon: <box-icon name='collection' color='#fff' class='icon' />,
+            active: false,
         }
     ])
 

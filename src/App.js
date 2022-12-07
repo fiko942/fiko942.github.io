@@ -9,6 +9,7 @@ import {
 import Home from './Screens/Home'
 import Download from './Screens/Download'
 import About from './Screens/About'
+import Portfolio from './Screens/Portfolio'
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
             url: 'https://cv.tobelsoft.my.id'
           }} />} />
           <Route path="/about" element={<About />} />
+          <Route path='/portfolio' element={<Portfolio />} />
         </Routes>
       </div>
     </Router>
