@@ -45,54 +45,127 @@ function Item(args) {
 
 const items = [
     {
-        project: 'Trucatt - Tobelsoft',
-        image: images.test,
+        project: 'Trucatt',
+        image: images.trucatt_csharp,
         description: 'Trucatt is a tools for cheating online games, we focused on PointBlank, this service is free without credit card',
-        software_type: 'Site',
+        software_type: 'Desktop Application',
         tech_stacks: [
-            'Codeigniter', 'Bootstrap', 'MySQL', 'JQuery'
+            'JSON API', 'MySQL', 'C#', 'Guna UI2'
         ],
-        site: 'https://google.com'
+        site: 'https://trucatt.tobelsoft.my.id'
     },
     {
-        project: 'Trucatt - Tobelsoft',
-        image: images.test,
-        description: 'Trucatt is a tools for cheating online games, we focused on PointBlank, this service is free without credit card',
-        software_type: 'Site',
+        project: 'Trucatt (Site)',
+        image: images.trucatt_site,
+        software_type: 'Website',
         tech_stacks: [
-            'Codeigniter', 'Bootstrap', 'MySQL', 'JQuery'
-        ]
-    },{
-        project: 'Trucatt - Tobelsoft',
-        image: images.test,
+            'MySQL',
+            'PHP Codeigniter',
+            'JQuery',
+            'JSON API',
+            'Bootstrap',
+            'SMTP'
+        ],
         description: 'Trucatt is a tools for cheating online games, we focused on PointBlank, this service is free without credit card',
-        software_type: 'Site',
-        tech_stacks: [
-            'Codeigniter', 'Bootstrap', 'MySQL', 'JQuery'
-        ]
-    },{
-        project: 'Trucatt - Tobelsoft',
-        image: images.test,
+        site: 'https://trucatt.tobelsoft.my.id'
+    },
+    {
+        project: 'Trucatt (Electron)',
+        image: images.trucatt_electron,
         description: 'Trucatt is a tools for cheating online games, we focused on PointBlank, this service is free without credit card',
-        software_type: 'Site',
+        software_type: 'Desktop Application',
         tech_stacks: [
-            'Codeigniter', 'Bootstrap', 'MySQL', 'JQuery'
-        ]
-    },{
-        project: 'Trucatt - Tobelsoft',
-        image: images.test,
-        description: 'Trucatt is a tools for cheating online games, we focused on PointBlank, this service is free without credit card',
-        software_type: 'Site',
+            'Electron JS', 'JSON API', 'MySQL', 'Node JS', 'Google V8 Javascript Engine', 'JQuery'
+        ],
+        site: 'https://trucatt.tobelsoft.my.id'
+    },
+    {
+        project: 'Daily life of a student',
+        image: images.daily_life_of_a_student,
+        software_type: 'Website',
         tech_stacks: [
-            'Codeigniter', 'Bootstrap', 'MySQL', 'JQuery'
-        ]
-    },{
-        project: 'Trucatt - Tobelsoft',
-        image: images.test,
-        description: 'Trucatt is a tools for cheating online games, we focused on PointBlank, this service is free without credit card',
-        software_type: 'Site',
+            'PHP (Codeigniter)',
+            'MySQL',
+            'Bootstrap',
+            'JQuery',
+        ],
+        description: 'Simple software for managing your life as a student. build using php codeigniter and mysql. This project is currently unavilable for public, because our server is no enouch storage. but you can clone this project in our github repository: "fiko942"'
+    },
+    {
+        project: 'Genic (site)',
+        image: images.genic_site,
+        software_type: 'Website',
         tech_stacks: [
-            'Codeigniter', 'Bootstrap', 'MySQL', 'JQuery'
-        ]
+            'PHP (Codeigniter)',
+            'MySQL',
+            'JSON API',
+            'Bootstrap',
+            'JQuery',
+        ],
+        description: 'Monitor your computer, like performance, network state, battery, etc. and this can control your computer, like capture screen, speak, keyboard press, and capture image from camera. but this project is no longer accessible in github and public site.'
+    },
+    {
+        project: 'Genic',
+        image: images.genic,
+        software_type: 'Desktop Application',
+        tech_stacks: [
+            'JSON API',
+            'MySQL',
+            'C#'
+        ],
+        description: 'Monitor your computer, like performance, network state, battery, etc. and this can control your computer, like capture screen, speak, keyboard press, and capture image from camera. but this project is no longer accessible in github and public site.'
+    },
+    {
+        project: 'Code Minifier',
+        image: images.code_minifier,
+        software_type: 'Website',
+        tech_stacks: [
+            'Jquery',
+            'Native Javascript',
+            'Bootstrap',
+            'PHP',
+        ],
+        description: 'For minify your code, this for reduce the resource size'
+    },
+    {
+        project: 'GGG Tanaman Buah',
+        image: images.gggtanamanbuah,
+        software_type: 'Website',
+        tech_stacks: [
+            'JSON API',
+            'Codeigniter',
+            'SMTP'
+            ],
+        description: 'Simple marketplace focused on vegetables, track shipper price, additional price, and another.',
+        site: 'https://gggtanamanbuah.com'
+    },
+    {
+        project: 'Mividy (site)',
+        image: images.mividy_site,
+        software_type: 'Website',
+        tech_stacks: [
+            'Bootstrap',
+            'JQuery',
+            'JSON API',
+            'SMTP',
+            'MySQL',
+            'Codeigniter',
+            'AOS JS'
+        ],
+        description: 'This is a project for KIDS competition, repository: https://github.com/fiko942/mividy',
+        site: 'https://mividy.tobelsoft.my.id'
+    },
+    {
+        project: 'Mividy',
+        image: images.mividy,
+        software_type: 'Desktop Application',
+        tech_stacks: [
+            'Electron JS',
+            'Bootstrap',
+            'JSON API',
+            'Node JS',
+        ],
+        site: 'https://mividy.tobelsoft.my.id',
+        description: 'This is a project for KIDS competition, repository: https://github.com/fiko942/mividy',
     }
 ]

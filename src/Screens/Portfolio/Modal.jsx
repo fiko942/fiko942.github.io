@@ -38,9 +38,9 @@ export default function Modal(args) {
                                 <tr>
                                     <td>Tech Stack</td>
                                     <td>
-                                        <div className='techs'>
+                                        <div className='techs row d-flex align-items-center justify-content-center'>
                                         {args.item.tech_stacks.map((tech, index) => (
-                                        <div className='tech'>{tech}</div>
+                                        <div className='tech col'>{tech}</div>
                                         ))}</div>
                                     </td>
                                 </tr>
