@@ -5,8 +5,6 @@ import {Link} from 'react-router-dom'
 import Skills from './Skills'
 
 export default function Home(args) {
-
-    
     return (
         <div className="home">
             <div className="left">
@@ -15,7 +13,6 @@ export default function Home(args) {
                 <div className="desc">I currently working at <b>Kampung Songo</b> as a <b>Programmer</b>, and i make <b>Tobelsoft</b> which focused on computer software. I'm tech fan. I am always open to collaborating on innovate/distruptive project and ideas. Find out more about me & feel free to connect with me.</div>
                 <div className="actions">
                     <Link to="/download/resume">Download Resume</Link>    
-                    <Link to="/download/cv">Download CV</Link>
                 </div>
                 <Skills />
             </div>

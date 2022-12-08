@@ -19,12 +19,8 @@ function App() {
         <Routes>
           <Route path='/' element={<Home logo={logo} />} />
           <Route path="/download/resume" element={<Download file={{
-            name: 'Wiji Fiko Teren - resume.pdf',
-            url: 'https://resume.tobelsoft.my.id'
-          }} />} />
-          <Route path="/download/cv" element={<Download file={{
-            name: 'Wiji Fiko Teren - cv.pdf',
-            url: 'https://cv.tobelsoft.my.id'
+            name: 'Resume - Wiji Fiko Teren.pdf',
+            url: '/Resume - Wiji Fiko Teren.pdf'
           }} />} />
           <Route path="/about" element={<About />} />
           <Route path='/portfolio' element={<Portfolio />} />

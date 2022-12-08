@@ -11,7 +11,6 @@ export default function Download({file}) {
 		return async () => {
 			if(!opened) {
 				opened = true
-				await new Promise(resolve => setTimeout(resolve, 3000))
 				window.open(file.url, '_blank')
 			}
 		}
