@@ -113,6 +113,35 @@
                         color: silver;
                     }
                 }
+
+                .type {
+                    color: #fff;
+                    fill: #fff;
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                }
+
+
+                .techs {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                }
+
+                .techs .tech {
+                    background: rgba(0,0,0,0.4);
+                    padding: 3px 10px;
+                    border-radius: 5px;
+                    display: flex;
+                    align-items: center;
+                }
+
+                .techs .tech::before {
+                    display: flex;
+                    content: '#';
+                    margin-right: 5px;
+                }
             }
         }
     }

@@ -25,6 +25,37 @@ export default function Modal(args) {
                                     <td>Name</td>
                                     <td>{args.item.project}</td>
                                 </tr>
+                                <tr>
+                                    <td>Description</td>
+                                    <td>{args.item.description}</td>
+                                </tr>
+                                <tr>
+                                    <td>Type</td>
+                                    <td>
+                                        <span>{args.item.software_type}</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Tech Stack</td>
+                                    <td>
+                                        <div className='techs'>
+                                        {args.item.tech_stacks.map((tech, index) => (
+                                        <div className='tech'>{tech}</div>
+                                        ))}</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Site</td>
+                                    <td>
+                                        {typeof args.item.site != 'undefined' ? 
+                                            (
+                                                <a style={{color: '#fff', textDecoration: 'underline !important' }} href={args.item.site} target="_blank" rel="noreferrer">{args.item.site}</a>
+                                            ) : 
+                                            (
+                                            <div style={{fontSize: '13px', color: '#ff0000'}}>This project is not contains the site, maybe this project is a private or the server is not available</div>
+                                            )}
+                                    </td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>

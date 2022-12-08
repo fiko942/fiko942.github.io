@@ -48,20 +48,17 @@ const items = [
         project: 'Trucatt - Tobelsoft',
         image: images.test,
         description: 'Trucatt is a tools for cheating online games, we focused on PointBlank, this service is free without credit card',
-        icon: images.test,
         software_type: 'Site',
-        software_type_icon: 'chrome',
         tech_stacks: [
             'Codeigniter', 'Bootstrap', 'MySQL', 'JQuery'
-        ]
+        ],
+        site: 'https://google.com'
     },
     {
         project: 'Trucatt - Tobelsoft',
         image: images.test,
         description: 'Trucatt is a tools for cheating online games, we focused on PointBlank, this service is free without credit card',
-        icon: images.test,
         software_type: 'Site',
-        software_type_icon: 'chrome',
         tech_stacks: [
             'Codeigniter', 'Bootstrap', 'MySQL', 'JQuery'
         ]
@@ -69,9 +66,7 @@ const items = [
         project: 'Trucatt - Tobelsoft',
         image: images.test,
         description: 'Trucatt is a tools for cheating online games, we focused on PointBlank, this service is free without credit card',
-        icon: images.test,
         software_type: 'Site',
-        software_type_icon: 'chrome',
         tech_stacks: [
             'Codeigniter', 'Bootstrap', 'MySQL', 'JQuery'
         ]
@@ -79,9 +74,7 @@ const items = [
         project: 'Trucatt - Tobelsoft',
         image: images.test,
         description: 'Trucatt is a tools for cheating online games, we focused on PointBlank, this service is free without credit card',
-        icon: images.test,
         software_type: 'Site',
-        software_type_icon: 'chrome',
         tech_stacks: [
             'Codeigniter', 'Bootstrap', 'MySQL', 'JQuery'
         ]
@@ -89,9 +82,7 @@ const items = [
         project: 'Trucatt - Tobelsoft',
         image: images.test,
         description: 'Trucatt is a tools for cheating online games, we focused on PointBlank, this service is free without credit card',
-        icon: images.test,
         software_type: 'Site',
-        software_type_icon: 'chrome',
         tech_stacks: [
             'Codeigniter', 'Bootstrap', 'MySQL', 'JQuery'
         ]
@@ -99,9 +90,7 @@ const items = [
         project: 'Trucatt - Tobelsoft',
         image: images.test,
         description: 'Trucatt is a tools for cheating online games, we focused on PointBlank, this service is free without credit card',
-        icon: images.test,
         software_type: 'Site',
-        software_type_icon: 'chrome',
         tech_stacks: [
             'Codeigniter', 'Bootstrap', 'MySQL', 'JQuery'
         ]
